@@ -915,6 +915,37 @@ export const DistributeVerticallyIcon = createIcon(
   modifiedTablerIconProps,
 );
 
+export const TidyUpIcon = createIcon(
+  <>
+    <g clipPath="url(#a)" stroke="currentColor" strokeWidth="1.25">
+      <rect x="2.5" y="8.333" width="4.167" height="3.334" rx="1" />
+      <rect x="13.333" y="2.5" width="4.167" height="3.333" rx="1" />
+      <rect x="13.333" y="14.167" width="4.167" height="3.333" rx="1" />
+      <path
+        d="M6.667 10h1.666a1 1 0 0 0 1-1V5.167a1 1 0 0 1 1-1h1.084"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M6.667 10h1.666a1 1 0 0 1 1 1v3.833a1 1 0 0 0 1 1h1.084"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M11.417 2.917 13.5 5l-2.083 2.083M11.417 13.75l2.083 2.083-2.083 2.084"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="#fff" d="M0 0h20v20H0z" />
+      </clipPath>
+    </defs>
+  </>,
+  modifiedTablerIconProps,
+);
+
 export const CenterVerticallyIcon = createIcon(
   <g stroke="currentColor" strokeWidth="1.25">
     <path d="M1.667 10h2.916" strokeLinecap="round" strokeLinejoin="round" />

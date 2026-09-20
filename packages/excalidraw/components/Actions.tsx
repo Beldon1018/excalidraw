@@ -123,6 +123,7 @@ const AlignFieldset = ({
           {renderAction("alignVerticallyCentered")}
           {renderAction("alignBottom")}
           {showDistribute && renderAction("distributeVertically")}
+          {renderAction("tidyUp")}
         </div>
       </div>
     </fieldset>
