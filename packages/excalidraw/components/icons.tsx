@@ -820,6 +820,29 @@ export const AlignTopIcon = createIcon(
   modifiedTablerIconProps,
 );
 
+export const TidyUpIcon = createIcon(
+  <>
+    <g
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.25"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      {/* two tidy rows of nodes connected left → right */}
+      <rect x="2.5" y="4.583" width="4.167" height="3.333" rx="0.625" />
+      <rect x="13.333" y="4.583" width="4.167" height="3.333" rx="0.625" />
+      <rect x="2.5" y="12.083" width="4.167" height="3.333" rx="0.625" />
+      <rect x="13.333" y="12.083" width="4.167" height="3.333" rx="0.625" />
+      <path d="M6.667 6.25h5.416" />
+      <path d="m11 5.083 1.25 1.167-1.25 1.167" />
+      <path d="M6.667 13.75h5.416" />
+      <path d="m11 12.583 1.25 1.167-1.25 1.167" />
+    </g>
+  </>,
+  modifiedTablerIconProps,
+);
+
 export const AlignBottomIcon = createIcon(
   <>
     <g clipPath="url(#a)" stroke="currentColor" strokeWidth="1.25">

@@ -124,6 +124,9 @@ const AlignFieldset = ({
           {renderAction("alignBottom")}
           {showDistribute && renderAction("distributeVertically")}
         </div>
+        {/* tidy up flowchart layout */}
+        <div style={{ flexBasis: "100%", height: 0 }} />
+        {renderAction("tidyFlowchart")}
       </div>
     </fieldset>
   );

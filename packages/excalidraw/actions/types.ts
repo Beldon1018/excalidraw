@@ -113,6 +113,7 @@ export type ActionName =
   | "alignHorizontallyCentered"
   | "distributeHorizontally"
   | "distributeVertically"
+  | "tidyFlowchart"
   | "flipHorizontal"
   | "flipVertical"
   | "deselect"
